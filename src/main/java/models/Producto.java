@@ -17,11 +17,30 @@ public class Producto {
 	private Integer stock;
 	private Date fechaCompra;
 	private Date fechaCreacion;
+	private String nombreIma;
 	private String imagenUrl;
+	private String nombreMarca;
+	private String imagenMarca;
 	
 	
-	
-	
+	public String getNombreIma() {
+		return nombreIma;
+	}
+	public void setNombreIma(String nombreIma) {
+		this.nombreIma = nombreIma;
+	}
+	public String getNombreMarca() {
+		return nombreMarca;
+	}
+	public void setNombreMarca(String nombreMarca) {
+		this.nombreMarca = nombreMarca;
+	}
+	public String getImagenMarca() {
+		return imagenMarca;
+	}
+	public void setImagenMarca(String imagenMarca) {
+		this.imagenMarca = imagenMarca;
+	}
 	public String getImagenUrl() {
 		return imagenUrl;
 	}
